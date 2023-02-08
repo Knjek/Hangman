@@ -15,17 +15,20 @@ public class Controller {
         latestGuessedWord = String.valueOf(blankWord);
     }
 
-    public void checkLetter(char c) {
+    public boolean checkLetter(char c) {
+        boolean isCorrect = false;
         for (int i = 0; i < correctWord.length; i++) {
             if (c == correctWord[i]) {
                 blankWord[i] = c;
+                isCorrect = true;
             }
         }
         latestGuessedWord = String.valueOf(blankWord);
+        return isCorrect;
     }
     private void makeBlank(String word) {
         blankWord = new char[word.length()];
-        Arrays.fill(blankWord, '_');
+        Arrays.fill(blankWord, '*');
     }
 
     public String getLatestGuessedWord() {
