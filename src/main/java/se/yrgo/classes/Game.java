@@ -28,8 +28,16 @@ public class Game {
                 System.out.println("You did it! " + correctWord + " was the word I was looking for.");
                 break;
             }
+            if(control.checkLetter()){
+                System.out.println("You got one! gimmie another one");
+                System.out.println(control);
+
+            }
             else {
-                
+                System.out.println("Wrong guess, try again");
+                System.out.println();
+                guessesleft--;
+            }
             }
 
         }
