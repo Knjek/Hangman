@@ -7,10 +7,12 @@ public class Controller {
     // rätt ord från Reader
     private char[] correctWord;
     private char[] blankWord;
+    private String latestGuessedWord;
 
     public Controller (String correctWord) {
         this.correctWord = correctWord.toCharArray();
         makeBlank(correctWord);
+        latestGuessedWord = String.valueOf(blankWord);
     }
 
     public void checkLetter(char c) {
@@ -19,14 +21,17 @@ public class Controller {
                 blankWord[i] = c;
             }
         }
+        latestGuessedWord = String.valueOf(blankWord);
     }
     private void makeBlank(String word) {
         blankWord = new char[word.length()];
         Arrays.fill(blankWord, '_');
     }
 
-
-    // stjärn-ord (skapa)
+    public String getLatestGuessedWord() {
+        return latestGuessedWord;
+    }
+// stjärn-ord (skapa)
     // guessed char från Game
 
     // metod för att returnera stjärn-ordet som sträng
