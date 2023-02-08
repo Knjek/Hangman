@@ -1,5 +1,7 @@
 package se.yrgo.classes;
 
+import java.util.Arrays;
+
 public class Controller {
     // lista över använda bokstäver
     // rätt ord från Reader
@@ -8,18 +10,19 @@ public class Controller {
 
     public Controller (String correctWord) {
         this.correctWord = correctWord.toCharArray();
+        makeBlank(correctWord);
     }
 
-    public String checkLetter(char c) {
+    public void checkLetter(char c) {
         for (int i = 0; i < correctWord.length; i++) {
             if (c == correctWord[i]) {
                 blankWord[i] = c;
             }
         }
-        return String.valueOf(blankWord);
     }
-    private static void makeBlank() {
-
+    private void makeBlank(String word) {
+        blankWord = new char[word.length()];
+        Arrays.fill(blankWord, '_');
     }
 
 
