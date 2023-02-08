@@ -14,7 +14,8 @@ public class Game {
     public Game(Scanner scan) {
         this.scan = scan;
         read = new Reader();
-        control = new Controller();
+        correctWord = read.word();
+        control = new Controller(correctWord);
         guessesleft = 8;
 
     }
@@ -23,13 +24,27 @@ public class Game {
 
         while (true) {
             System.out.print("Guess one letter: ");
+            char guess = scan.nextLine().charAt(0);
 
-            if (correctWord.equals(Controller.getGuess())) {
+            if (correctWord.equals(control.getLatestGuessedWord())) {
                 System.out.println("You did it! " + correctWord + " was the word I was looking for.");
                 break;
             }
+            if(control.checkLetter(guess)){
+                System.out.println("You got one! gimmie another one");
+                System.out.println(control.getLatestGuessedWord());
+
+            }
             else {
-                
+                System.out.println("Wrong guess, try again");
+                System.out.println(control.getLatestGuessedWord());
+                guessesleft--;
+            }
+
+            if (guessesleft == 0){
+                System.out.println("No guesses left, u suck");
+                break;
+            }
             }
 
         }
