@@ -56,6 +56,7 @@ public class Game {
     public boolean isOutOfGuesses() {
         if (guessesleft <= 0) {
             System.out.println("No guesses left, u suck");
+            System.out.println(correctWord);
             return true;
         }
         return false;
