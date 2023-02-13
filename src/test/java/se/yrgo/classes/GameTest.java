@@ -7,8 +7,6 @@ import java.util.Scanner;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class GameTest {
-
-    private Controller controll;
     private Game game;
     Scanner scan;
 
@@ -16,7 +14,6 @@ public class GameTest {
     public GameTest() {
         String st = "o";
         scan = new Scanner(st);
-        controll = new Controller("test");
         game = new Game(scan);
 
     }
