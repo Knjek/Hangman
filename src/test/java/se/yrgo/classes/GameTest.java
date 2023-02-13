@@ -13,11 +13,8 @@ public class GameTest {
 
 
     public GameTest(){
-        String st = "o";
-        try(Scanner scan = new Scanner(st)) {
-        game = new Game(scan);
 
-        }
+
         controll = new Controller("test");
 
     }
@@ -25,14 +22,18 @@ public class GameTest {
 
     @Test
     void testIsOutOfGuesses() {
-        assertFalse(game.isOutOfGuesses());
+        String st = "o";
+        try(Scanner scan = new Scanner(st)) {
 
-        for (int i = game.getGuessesleft(); i >= 0  ; i--) {
-            game.checkAnswer('o');
+            Game game = new Game(scan);
+
+            assertFalse(game.isOutOfGuesses());
+
+            for (int i = game.getGuessesleft(); i >= 0; i--) {
+                game.checkAnswer('o');
+            }
+
+            assertTrue(game.isOutOfGuesses());
         }
-
-        assertTrue(game.isOutOfGuesses());
-
-
     }
 }
