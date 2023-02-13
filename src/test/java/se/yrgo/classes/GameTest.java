@@ -10,29 +10,33 @@ public class GameTest {
 
     private Controller controll;
     private Game game;
+    Scanner scan;
 
 
-    public GameTest(){
+    public GameTest() {
         String st = "o";
-        try(Scanner scan = new Scanner(st)) {
-        game = new Game(scan);
-
-        }
+        scan = new Scanner(st);
         controll = new Controller("test");
+        game = new Game(scan);
 
     }
 
+    @Test
+    void testAskQuestion() {
+        assertEquals('o', game.askQuestion());
+    }
 
     @Test
     void testIsOutOfGuesses() {
-        assertFalse(game.isOutOfGuesses());
+        Game game1 = new Game(scan);
 
-        for (int i = game.getGuessesleft(); i >= 0  ; i--) {
-            game.checkAnswer('o');
+        assertFalse(game1.isOutOfGuesses());
+
+        for (int i = game1.getGuessesleft(); i >= 0; i--) {
+            game1.checkAnswer('o');
         }
 
-        assertTrue(game.isOutOfGuesses());
-
-
+        assertTrue(game1.isOutOfGuesses());
     }
 }
+
