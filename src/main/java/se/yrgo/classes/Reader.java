@@ -3,6 +3,7 @@ package se.yrgo.classes;
 
 import java.io.BufferedReader;
 import java.io.IOException;
+import java.nio.file.FileSystems;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.ArrayList;
@@ -27,7 +28,7 @@ public class Reader {
     private Random random = new Random();
     
     public Reader() {
-        Path wordList = Path.of("words.txt");
+        Path wordList = Path.of("../assets/words.txt");
         
         try (BufferedReader reader = Files.newBufferedReader(wordList)) {
             String line;
@@ -41,7 +42,8 @@ public class Reader {
         }
     }
     
-    public List<String> removeWords(List<String> words){
+    
+    public List<String> removeWords(){
         List<String> faultyWords = new ArrayList<>();
         
         for (String word : words) {
@@ -57,5 +59,8 @@ public class Reader {
     public String randWord() {
         return words.get(random.nextInt(words.size()));
     }
+    
+    
 }
+
 
