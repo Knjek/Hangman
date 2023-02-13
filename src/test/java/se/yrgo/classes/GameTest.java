@@ -30,7 +30,7 @@ public class GameTest {
         assertFalse(game1.isOutOfGuesses());
 
         for (int i = game1.getGuessesleft(); i >= 0; i--) {
-            game1.checkAnswer('o');
+            game1.checkAnswer('ö');
         }
 
         assertTrue(game1.isOutOfGuesses());
