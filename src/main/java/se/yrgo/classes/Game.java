@@ -35,7 +35,7 @@ public class Game {
 
     }
 
-    private char askQuestion() {
+    public char askQuestion() {
         System.out.print("Guess one letter: ");
         char guess = scan.nextLine().charAt(0);
         return guess;
