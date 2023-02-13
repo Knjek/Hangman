@@ -1,0 +1,440 @@
+commit b72e504ed1f3a3a47fa089b2a77c48fccc47fc96
+Author: Samuel Siesjo <samsie0717@skola.goteborg.se>
+Date:   Mon Feb 13 14:00:46 2023 +0100
+
+    added README
+
+commit eea1881a48a452d030381a1b6e45a4630581f558
+Merge: 9df27da a0aba04
+Author: SamuelSie <117808701+SamuelSie@users.noreply.github.com>
+Date:   Mon Feb 13 13:15:19 2023 +0100
+
+    Merge pull request #17 from Knjek/pomBranch
+    
+    added package path to main file in POM.xml
+
+commit a0aba04686af002761aeedf294cc90fc39277719
+Author: Samuel Siesjo <samsie0717@skola.goteborg.se>
+Date:   Mon Feb 13 13:14:43 2023 +0100
+
+    added package path to main file in POM.xml
+
+commit 9df27daef103172e52f369f881d0e4d40f70d990
+Merge: 9de2687 23c435e
+Author: Christopher Lo-Martire <chrlom0905@skola.goteborg.se>
+Date:   Mon Feb 13 12:57:33 2023 +0100
+
+    Merge branch 'main' of github.com:Knjek/Hangman into main
+
+commit 9de2687da7ee1a712e4b7535993acf039e9d310d
+Author: Christopher Lo-Martire <chrlom0905@skola.goteborg.se>
+Date:   Mon Feb 13 12:54:59 2023 +0100
+
+    Added changes to removeWords() in Reader.java
+
+commit 23c435e475ef68d0bdbe19fadd666b9103b49cd3
+Author: Samuel Siesjo <samsie0717@skola.goteborg.se>
+Date:   Mon Feb 13 12:52:08 2023 +0100
+
+    changed the test input again
+
+commit f5630ea669228b75626d3fd4988d62c68e8ca7a0
+Author: Samuel Siesjo <samsie0717@skola.goteborg.se>
+Date:   Mon Feb 13 12:47:42 2023 +0100
+
+    changed input to testIsOutOfGuesses
+
+commit 45c1a9ae2e8ee3eed26f96dd1883e46d2ae2d301
+Merge: 3355248 0d6091f
+Author: SamuelSie <117808701+SamuelSie@users.noreply.github.com>
+Date:   Mon Feb 13 11:38:50 2023 +0100
+
+    Merge pull request #16 from Knjek/package
+    
+    added /target/ to .gitignore
+
+commit 0d6091f367b74ac568f7c7154f9bdd688212ae17
+Author: Samuel Siesjo <samsie0717@skola.goteborg.se>
+Date:   Mon Feb 13 11:37:51 2023 +0100
+
+    added /target/ to .gitignore
+
+commit 33552483aadcbf377166abc7d42ca2a3cfdacd6b
+Merge: 3340802 54d5427
+Author: Christopher-Java <123940519+Christopher-Java@users.noreply.github.com>
+Date:   Mon Feb 13 11:30:33 2023 +0100
+
+    Merge pull request #15 from Knjek/ReaderTest
+    
+    Completed test in ReaderTest.java
+
+commit 54d54275b2957477cc070f67c8ee3e2cebd2b774
+Author: Christopher Lo-Martire <chrlom0905@skola.goteborg.se>
+Date:   Mon Feb 13 11:28:01 2023 +0100
+
+    Completed test in ReaderTest.java
+
+commit 3340802ffd438fbb73e4cd83c75113c6954686ce
+Merge: 274c3d2 ed13c94
+Author: SamuelSie <117808701+SamuelSie@users.noreply.github.com>
+Date:   Mon Feb 13 11:18:56 2023 +0100
+
+    Merge pull request #14 from Knjek/game
+    
+    fixed game.java so that it reads from reader.java
+
+commit 274c3d22852d5b5ff3d02d83e8e62a528b948b7a
+Author: Adrian Åsling Sellius <adrian@gmail.com>
+Date:   Mon Feb 13 11:18:30 2023 +0100
+
+    deleting target directory
+
+commit ed13c941f148d4d881e9416291a9d9bb8cf3e079
+Author: Samuel Siesjo <samsie0717@skola.goteborg.se>
+Date:   Mon Feb 13 11:18:15 2023 +0100
+
+    fixed game.java so that it reads from reader.java
+
+commit d472d1177cb329c8cab72f3985ae64f72f8d9b88
+Merge: a9faa58 da300ff
+Author: Christopher-Java <123940519+Christopher-Java@users.noreply.github.com>
+Date:   Mon Feb 13 11:04:04 2023 +0100
+
+    Merge pull request #13 from Knjek/Reader
+    
+    Reader
+
+commit da300ff4ea776709fc5047f49aed29a7432ee690
+Merge: b7cd272 a9faa58
+Author: Christopher Lo-Martire <chrlom0905@skola.goteborg.se>
+Date:   Mon Feb 13 11:02:24 2023 +0100
+
+    TESTING
+
+commit b7cd27286d2e72fd5c17600c6635de4329434e65
+Author: Christopher Lo-Martire <chrlom0905@skola.goteborg.se>
+Date:   Mon Feb 13 10:56:27 2023 +0100
+
+    Adding changes to Reader.java
+
+commit a9faa588201e8453634d94d0793deb25e49fc25e
+Merge: eca1dad 7bd3637
+Author: SamuelSie <117808701+SamuelSie@users.noreply.github.com>
+Date:   Mon Feb 13 10:53:52 2023 +0100
+
+    Merge pull request #11 from Knjek/testGame
+    
+    Test game
+
+commit 7bd363789a435c6e71378936945a9fcaadc3ab4c
+Merge: bb3205b eca1dad
+Author: Samuel Siesjo <samsie0717@skola.goteborg.se>
+Date:   Mon Feb 13 10:52:54 2023 +0100
+
+    Merge branch 'main' into testGame
+
+commit 17353cd5326e73fda733358f673e8f35f302ce02
+Author: Christopher Lo-Martire <chrlom0905@skola.goteborg.se>
+Date:   Mon Feb 13 10:52:07 2023 +0100
+
+    Adding more changes to ReaderTest.java
+
+commit bb3205b455c60d294ac1e067ab1c788fa5058fdc
+Author: Samuel Siesjo <samsie0717@skola.goteborg.se>
+Date:   Mon Feb 13 10:48:49 2023 +0100
+
+    removed unused fields
+
+commit eca1dada2114c0d1f9e00aedb0f2eb201093a5c3
+Merge: 3c0f75b 09a452f
+Author: Adrian <103000510+Knjek@users.noreply.github.com>
+Date:   Mon Feb 13 10:40:41 2023 +0100
+
+    Merge pull request #10 from Knjek/Controller
+    
+    testing new path to target
+
+commit 8bff4efe091264564020478c1527b264c72e4569
+Author: Christopher Lo-Martire <chrlom0905@skola.goteborg.se>
+Date:   Mon Feb 13 10:40:28 2023 +0100
+
+    Adding changes to ReaderTest.java
+
+commit 09a452f513d11461f74348ec3a65f4f4987fc81b
+Author: Adrian Åsling Sellius <adrian@gmail.com>
+Date:   Mon Feb 13 10:39:56 2023 +0100
+
+    testing new path to target
+
+commit 6af1378edb1db4c2205e856615407866828b7732
+Author: Christopher Lo-Martire <chrlom0905@skola.goteborg.se>
+Date:   Mon Feb 13 10:34:11 2023 +0100
+
+    Made some changes toReader.java and added a file ReaderTest.java
+
+commit 3c0f75b74cd126d23f7be4144b00541af23edc8e
+Merge: efe552b 45a5249
+Author: SamuelSie <117808701+SamuelSie@users.noreply.github.com>
+Date:   Mon Feb 13 10:33:35 2023 +0100
+
+    Merge pull request #9 from Knjek/testGame
+    
+    Test game
+
+commit 45a5249cdd756d3c72188715d41fbdbfe675cec6
+Author: Samuel Siesjo <samsie0717@skola.goteborg.se>
+Date:   Mon Feb 13 10:32:54 2023 +0100
+
+    adding test for game.askQuestion
+
+commit 1d84b1a04e879f48e26de5ed61d717451a15da90
+Author: Samuel Siesjo <samsie0717@skola.goteborg.se>
+Date:   Mon Feb 13 10:27:12 2023 +0100
+
+    changing testIsOutOfGuesses
+
+commit efe552b0141f5e21384dd3fb1adbed2bb2619bbb
+Merge: 0f189d9 b6c880e
+Author: SamuelSie <117808701+SamuelSie@users.noreply.github.com>
+Date:   Mon Feb 13 10:19:46 2023 +0100
+
+    Merge pull request #8 from Knjek/testGame
+    
+    adding testGame and a test for isOutOfGuesses()
+
+commit b6c880e6bd98aef773b39cb6ece2b9a152713a1f
+Author: Samuel Siesjo <samsie0717@skola.goteborg.se>
+Date:   Mon Feb 13 10:18:18 2023 +0100
+
+    adding testGame and a test for isOutOfGuesses()
+
+commit 0f189d99438f9cafe1ae018c4ae4e18038125389
+Merge: f2bc01b 1a32c57
+Author: Adrian <103000510+Knjek@users.noreply.github.com>
+Date:   Mon Feb 13 09:54:31 2023 +0100
+
+    Merge pull request #7 from Knjek/Controller
+    
+    adding tests for ControllerTest
+
+commit 1a32c57beb31749e717cbfb00ae5705c09fd2dad
+Author: Adrian Åsling Sellius <adrian@gmail.com>
+Date:   Mon Feb 13 09:53:23 2023 +0100
+
+    adding tests for ControllerTest
+
+commit f2bc01bc928424df2b0545f856d816ccadd4c4c5
+Merge: e090f3f 4010360
+Author: Christopher-Java <123940519+Christopher-Java@users.noreply.github.com>
+Date:   Mon Feb 13 09:15:34 2023 +0100
+
+    Merge pull request #6 from Knjek/Reader
+    
+    Reader
+
+commit 40103607ffb03dc89da8e36c65ae92a2b55e94e8
+Author: Christopher Lo-Martire <chrlom0905@skola.goteborg.se>
+Date:   Mon Feb 13 09:09:58 2023 +0100
+
+    Commiting
+
+commit e090f3ff4c8d6e3824f7fbafd8ce5d79c57565f0
+Merge: df4b67c 41a7a9f
+Author: Adrian <103000510+Knjek@users.noreply.github.com>
+Date:   Mon Feb 13 09:03:35 2023 +0100
+
+    Merge pull request #5 from Knjek/Controller
+    
+    adding /target/ to .gitignore, replacing junit engine and api with on…
+
+commit 41a7a9f10c7c8f8d617129298c6b95a81ea2df55
+Author: Adrian Åsling Sellius <adrian@gmail.com>
+Date:   Mon Feb 13 09:03:07 2023 +0100
+
+    adding /target/ to .gitignore, replacing junit engine and api with only one dependency
+
+commit 8a920ef7a769088caaa8c72106da89b5e6e847bb
+Author: Christopher Lo-Martire <chrlom0905@skola.goteborg.se>
+Date:   Mon Feb 13 08:48:36 2023 +0100
+
+    latest commit
+
+commit 616e214003027d03da7bcfd128b40312235db6ef
+Author: Christopher Lo-Martire <chrlom0905@skola.goteborg.se>
+Date:   Sun Feb 12 19:50:00 2023 +0100
+
+    Adding changes to Reader.java
+
+commit df4b67c066ac9aa7ce918df58c2fa526e2eab9b6
+Merge: 00e03b4 b3cc133
+Author: SamuelSie <117808701+SamuelSie@users.noreply.github.com>
+Date:   Fri Feb 10 16:30:04 2023 +0100
+
+    Merge pull request #3 from Knjek/game
+    
+    Game
+
+commit b3cc133c1d457c71539c4a6fca8a0d4e09c3d8bf
+Author: Samuel Siesjo <samsie0717@skola.goteborg.se>
+Date:   Fri Feb 10 16:29:12 2023 +0100
+
+    refactored game.class and cleaned it up
+
+commit 1e221cc166946b7cdc37d9ad6c3e3131b3664057
+Author: Samuel Siesjo <samsie0717@skola.goteborg.se>
+Date:   Fri Feb 10 16:19:59 2023 +0100
+
+    Updating Main.class to create and run a game
+
+commit 00e03b4b80fe7f23aec3e4b0947c5f505f1c95d7
+Merge: 92b41ce 5582a15
+Author: SamuelSie <117808701+SamuelSie@users.noreply.github.com>
+Date:   Wed Feb 8 15:24:43 2023 +0100
+
+    Merge pull request #2 from Knjek/game
+    
+    Game
+
+commit 5582a1597412cb3dc59a79e51fc05a58f0c95461
+Author: Samuel Siesjo <samsie0717@skola.goteborg.se>
+Date:   Wed Feb 8 15:23:13 2023 +0100
+
+    finished up game.java main game loop for now
+
+commit 68b6ff3ca99845886864207ecf708435a6ab2239
+Merge: 659de07 92b41ce
+Author: Samuel Siesjo <samsie0717@skola.goteborg.se>
+Date:   Wed Feb 8 15:14:43 2023 +0100
+
+    Merge branch 'main' into game
+
+commit 92b41ce92413af42db9de982d42e13ae6f853b7e
+Merge: c76289b b43583c
+Author: SamuelSie <117808701+SamuelSie@users.noreply.github.com>
+Date:   Wed Feb 8 15:13:58 2023 +0100
+
+    Merge pull request #1 from Knjek/game
+    
+    added fields and created gameloop in Game.java
+
+commit 659de074d7c1a2eb3e18a6e100108a505fa7c516
+Author: Samuel Siesjo <samsie0717@skola.goteborg.se>
+Date:   Wed Feb 8 15:12:50 2023 +0100
+
+    continued on main game loop in Game.java
+
+commit c76289b5d38a63491bec9a3ece5523229e405e1e
+Author: Adrian Åsling Sellius <adrian@gmail.com>
+Date:   Wed Feb 8 15:10:52 2023 +0100
+
+    changing checkLetter to boolean
+
+commit 3b3466d9b8f6da06cca98b8a358b1a72e588ab36
+Author: Adrian Åsling Sellius <adrian@gmail.com>
+Date:   Wed Feb 8 15:02:47 2023 +0100
+
+    adding String latestGuessedWord to retrieve from Game with getter
+
+commit b43583c836c971d08201603f88cb076a29fc1fd0
+Author: Samuel Siesjo <samsie0717@skola.goteborg.se>
+Date:   Wed Feb 8 14:59:00 2023 +0100
+
+    added fields and created gameloop in Game.java
+
+commit ee5a64010fb20e8cc08e02c224c05be7fea25ab8
+Author: Adrian Åsling Sellius <adrian@gmail.com>
+Date:   Wed Feb 8 14:58:29 2023 +0100
+
+    adding method makeBlank
+
+commit 066484ba052424f4d502aa84ff69cfd9354ffd50
+Author: Adrian Åsling Sellius <adrian@gmail.com>
+Date:   Wed Feb 8 14:50:58 2023 +0100
+
+    adding method checkLetter
+
+commit 13bbef55e2d24c8e4b79cfc591c0e63167da642b
+Merge: 58c1b73 f62199f
+Author: Adrian Åsling Sellius <adrian@gmail.com>
+Date:   Wed Feb 8 14:32:35 2023 +0100
+
+    Merge branch 'Controller' into main
+
+commit 58c1b7357ebb69838231f4f7e6a0f26fbe11e607
+Author: Samuel Siesjo <samsie0717@skola.goteborg.se>
+Date:   Wed Feb 8 14:32:04 2023 +0100
+
+    wrote comments on what classes should contain, and added packet assets with file words.txt
+
+commit f62199f5931181a8c7f654cdb97a2d75a543f71e
+Author: Adrian Åsling Sellius <adrian@gmail.com>
+Date:   Wed Feb 8 14:31:53 2023 +0100
+
+    commenting Controller
+
+commit 0bbdb0dda1f1cd1a3a91def9167d3dce3603db1e
+Merge: b95bef0 50e8198
+Author: Adrian Åsling Sellius <adrian@gmail.com>
+Date:   Wed Feb 8 14:06:22 2023 +0100
+
+    Merge branch 'main' of github.com:Knjek/Hangman into main
+
+commit 50e819837c8c7474b41c5df886d33070bd05c76f
+Author: Christopher Lo-Martire <chrlom0905@skola.goteborg.se>
+Date:   Wed Feb 8 14:06:01 2023 +0100
+
+    adding Reader
+
+commit b95bef005f4596b624315923678ae48bcc21fcd9
+Author: Adrian Åsling Sellius <adrian@gmail.com>
+Date:   Wed Feb 8 14:03:34 2023 +0100
+
+    adding ControllerTest class
+
+commit d2980a4a0e4eb10e1617f4dc14267d616df3bcc5
+Author: Samuel Siesjo <samsie0717@skola.goteborg.se>
+Date:   Wed Feb 8 13:59:59 2023 +0100
+
+    creating game class
+
+commit ead800a57a4e50fb1a8d48dde95c0590de4f8ab9
+Author: Adrian Åsling Sellius <adrian@gmail.com>
+Date:   Wed Feb 8 13:58:55 2023 +0100
+
+    adding class Controller
+
+commit 4946ddd3e83506ff18e29747e98ef4b07ffa34bf
+Author: Adrian Åsling Sellius <adrian@gmail.com>
+Date:   Wed Feb 8 13:50:06 2023 +0100
+
+    updating pom.xml
+
+commit 1759d27acfff5f649af3cf81912fc0409b07f357
+Author: Adrian Åsling Sellius <adrian@gmail.com>
+Date:   Wed Feb 8 13:43:17 2023 +0100
+
+    changing file
+
+commit 138efb130ae86e6df8c3b72fccac54feb891ba06
+Author: Adrian Åsling Sellius <adrian@gmail.com>
+Date:   Wed Feb 8 13:33:01 2023 +0100
+
+    changed default branch to main
+
+commit 14ff570c538c67ed723f65dbd9beb52bfa9ea8d0
+Author: Adrian Åsling Sellius <adrian@gmail.com>
+Date:   Wed Feb 8 13:28:30 2023 +0100
+
+    trying to add directory src
+
+commit 4733b79a07c40aa805e9a1b84dacbaa3d84c3201
+Author: Adrian Åsling Sellius <adrian@gmail.com>
+Date:   Wed Feb 8 13:25:04 2023 +0100
+
+    adding Main class
+
+commit 9aa88c3e1ee40722469b310c12f9a9acf5283553
+Author: Adrian Åsling Sellius <adrian@gmail.com>
+Date:   Wed Feb 8 13:09:24 2023 +0100
+
+    initial commit
