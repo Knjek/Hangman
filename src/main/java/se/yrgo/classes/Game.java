@@ -15,7 +15,7 @@ public class Game {
     public Game(Scanner scan) {
         this.scan = scan;
         read = new Reader();
-        correctWord = "test";
+        correctWord = read.randWord();
         control = new Controller(correctWord);
         guessesleft = 8;
 
@@ -56,6 +56,7 @@ public class Game {
     public boolean isOutOfGuesses() {
         if (guessesleft <= 0) {
             System.out.println("No guesses left, u suck");
+            System.out.println(correctWord);
             return true;
         }
         return false;
