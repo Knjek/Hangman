@@ -28,7 +28,7 @@ public class Reader {
     private Random random = new Random();
     
     public Reader() {
-        Path wordList = FileSystems.getDefault().getPath("assets","words.txt");
+        Path wordList = Path.of("../assets/words.txt");
         
         try (BufferedReader reader = Files.newBufferedReader(wordList)) {
             String line;
