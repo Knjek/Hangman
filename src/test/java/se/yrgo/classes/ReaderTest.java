@@ -7,22 +7,29 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ReaderTest {
-    List<String> wordList = new ArrayList<>();
-    wordList.add("bok");
     
 @Test
     void testRemoveWords(){
     List<String> list = new ArrayList<>();
+    list.add("bok");
+    list.add("kåk");
+    list.add("hus");
+    list.add("kärlek");
+    list.add("överhuvud");
+    
     
     
     System.out.println(list);
     
-    List<String> correctList = new ArrayList<>();
+    List<String> inCorrectList = new ArrayList<>();
     for(String word : list){
         if(word.contains("å") || word.contains("ä") || word.contains("ö")){
-        
+            inCorrectList.add(word);
         }
     }
+    list.removeAll(inCorrectList);
+    
+    System.out.println(list);
     
     }
 }
