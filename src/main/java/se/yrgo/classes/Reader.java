@@ -40,10 +40,11 @@ public class Reader {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        removeWords();
     }
 
 
-    public List<String> removeWords(){
+    public void removeWords(){
         List<String> faultyWords = new ArrayList<>();
 
         for (String word : words) {
@@ -53,7 +54,7 @@ public class Reader {
         }
         words.removeAll(faultyWords);
 
-        return words;
+        
     }
     
     public String randWord() {
