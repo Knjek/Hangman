@@ -15,7 +15,7 @@ public class Game {
     public Game(Scanner scan) {
         this.scan = scan;
         read = new Reader();
-        correctWord = "test";
+        correctWord = read.randWord();
         control = new Controller(correctWord);
         guessesleft = 8;
 

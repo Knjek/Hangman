@@ -28,7 +28,7 @@ public class Reader {
     private Random random = new Random();
     
     public Reader() {
-        Path wordList = Path.of("../assets/words.txt");
+        Path wordList = Path.of("src/main/java/se/yrgo/assets/words.txt");
         
         try (BufferedReader reader = Files.newBufferedReader(wordList)) {
             String line;
@@ -41,18 +41,18 @@ public class Reader {
             e.printStackTrace();
         }
     }
-    
-    
+
+
     public List<String> removeWords(){
         List<String> faultyWords = new ArrayList<>();
-        
+
         for (String word : words) {
             if (word.contains("å") || word.contains("ä") || word.contains("ö")) {
                 faultyWords.add(word);
             }
         }
         words.removeAll(faultyWords);
-        
+
         return words;
     }
     
