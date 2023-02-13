@@ -1,10 +1,9 @@
 package se.yrgo.classes;
 
 import org.junit.jupiter.api.Test;
-
-import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class ReaderTest {
     
@@ -17,9 +16,7 @@ public class ReaderTest {
     list.add("kärlek");
     list.add("överhuvud");
     
-    
-    
-    System.out.println(list);
+    assertTrue(list.size() == 5);
     
     List<String> inCorrectList = new ArrayList<>();
     for(String word : list){
@@ -29,7 +26,7 @@ public class ReaderTest {
     }
     list.removeAll(inCorrectList);
     
-    System.out.println(list);
-    
+    assertTrue(list.size() ==2);
     }
+    
 }
