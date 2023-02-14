@@ -1,3 +1,5 @@
+// Samuel
+
 package se.yrgo.classes;
 
 import java.util.Scanner;
